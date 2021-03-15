@@ -1,11 +1,10 @@
+import Heading from "./Components/Heading";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Todo App React</h1>
-      </header>
+      <Heading />
     </div>
   );
 }

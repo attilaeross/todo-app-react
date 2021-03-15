@@ -1,6 +1,6 @@
 import React from "react";
 
-function Heading() {
+function Header() {
   return (
     <header>
       <h1>Todo App React</h1>
@@ -8,4 +8,4 @@ function Heading() {
   );
 }
 
-export default Heading;
+export default Header;

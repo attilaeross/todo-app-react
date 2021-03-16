@@ -18,6 +18,7 @@ function App() {
         className="new-todo"
         placeholder="Please enter new todo"
       />
+      <Button text="Add Todo" />
     </div>
   );
 }

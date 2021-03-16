@@ -1,4 +1,3 @@
-// import Header from "./Components/Header";
 import "./App.css";
 
 const UserNameInput = () => (
@@ -27,6 +26,14 @@ const Header = () => (
 
 const AddTodoButton = () => <button>Add todo</button>;
 
+const FilterTodoListButton = () => (
+  <select>
+    <option value="all">All</option>
+    <option value="completed">Completed</option>
+    <option value="outstanding">Outstanding</option>
+  </select>
+);
+
 function App() {
   return (
     <div className="App">
@@ -35,6 +42,7 @@ function App() {
       <Header />
       <NewTodoInput />
       <AddTodoButton />
+      <FilterTodoListButton />
     </div>
   );
 }

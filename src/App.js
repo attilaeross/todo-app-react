@@ -1,5 +1,4 @@
-import Header from "./Components/Header";
-import Button from "./Components/Button";
+// import Header from "./Components/Header";
 import "./App.css";
 
 const UserNameInput = () => (
@@ -18,6 +17,12 @@ const NewTodoInput = () => (
     className="new-todo"
     placeholder="Please enter new todo here"
   ></input>
+);
+
+const Header = () => (
+  <header>
+    <h1>Todo App React</h1>
+  </header>
 );
 
 const AddTodoButton = () => <button>Add todo</button>;

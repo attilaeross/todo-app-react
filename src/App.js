@@ -20,6 +20,8 @@ const NewTodoInput = () => (
   ></input>
 );
 
+const AddTodoButton = () => <button>Add todo</button>;
+
 function App() {
   return (
     <div className="App">
@@ -27,7 +29,7 @@ function App() {
       <ChangeUserButton />
       <Header />
       <NewTodoInput />
-      <Button text="Add Todo" />
+      <AddTodoButton />
     </div>
   );
 }

@@ -11,17 +11,21 @@ const UserNameInput = () => (
   ></input>
 );
 
+const NewTodoInput = () => (
+  <input
+    type="text"
+    className="new-todo"
+    placeholder="Please enter new todo here"
+  ></input>
+);
+
 function App() {
   return (
     <div className="App">
       <UserNameInput />
       <Button text="Set User" />
       <Header />
-      <Input
-        type="text"
-        className="new-todo"
-        placeholder="Please enter new todo"
-      />
+      <NewTodoInput />
       <Button text="Add Todo" />
     </div>
   );

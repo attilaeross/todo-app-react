@@ -1,17 +1,17 @@
-import InputElement from "./Components/InputElement";
+import Input from "./Components/Input";
 import Header from "./Components/Header";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <InputElement
+      <Input
         type="text"
         className="user-name"
         placeholder="Please enter user name"
       />
       <Header />
-      <InputElement
+      <Input
         type="text"
         className="new-todo"
         placeholder="Please enter new todo"

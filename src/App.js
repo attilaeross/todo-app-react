@@ -1,11 +1,10 @@
 import "./App.css";
-import { UserNameInput, ChangeUserButton, NewTodoInput } from "./components";
-
-const Header = () => (
-  <header>
-    <h1>Todo App React</h1>
-  </header>
-);
+import {
+  UserNameInput,
+  ChangeUserButton,
+  NewTodoInput,
+  Header,
+} from "./components";
 
 const AddTodoButton = () => <button>Add todo</button>;
 

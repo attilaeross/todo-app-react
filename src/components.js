@@ -15,3 +15,9 @@ export const NewTodoInput = () => (
     placeholder="Please enter new todo here"
   ></input>
 );
+
+export const Header = () => (
+  <header>
+    <h1>Todo App React</h1>
+  </header>
+);

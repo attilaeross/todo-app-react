@@ -1,13 +1,26 @@
 import "./App.css";
+import {
+  UserNameInput,
+  ChangeUserButton,
+  NewTodoInput,
+  Header,
+  AddTodoButton,
+  FilterTodoListButton,
+  TodoList,
+} from "./components";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Todo App React</h1>
-      </header>
-    </div>
-  );
-}
+const AppContainer = () => (
+  <div className="App">
+    <UserNameInput />
+    <ChangeUserButton />
+    <Header />
+    <NewTodoInput />
+    <AddTodoButton />
+    <FilterTodoListButton />
+    <TodoList />
+  </div>
+);
+
+const App = () => <AppContainer />;
 
 export default App;

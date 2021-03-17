@@ -1,12 +1,5 @@
 import "./App.css";
-
-const UserNameInput = () => (
-  <input
-    type="text"
-    className="user-name"
-    placeholder="Please enter user name"
-  ></input>
-);
+import { UserNameInput } from "./components";
 
 const ChangeUserButton = () => <button>Set User</button>;
 
@@ -45,18 +38,18 @@ const Todo = () => (
 
 const TodoList = () => <Todo />;
 
-function App() {
-  return (
-    <div className="App">
-      <UserNameInput />
-      <ChangeUserButton />
-      <Header />
-      <NewTodoInput />
-      <AddTodoButton />
-      <FilterTodoListButton />
-      <TodoList />
-    </div>
-  );
-}
+const AppContainer = () => (
+  <div className="App">
+    <UserNameInput />
+    <ChangeUserButton />
+    <Header />
+    <NewTodoInput />
+    <AddTodoButton />
+    <FilterTodoListButton />
+    <TodoList />
+  </div>
+);
+
+const App = () => <AppContainer />;
 
 export default App;

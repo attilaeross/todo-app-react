@@ -32,7 +32,7 @@ export const FilterTodoListButton = () => (
   </select>
 );
 
-export const Todo = () => (
+const Todo = () => (
   <div className="todo-list">
     <p>Todo 1</p>
     <button className="complete-button">Complete</button>
@@ -40,3 +40,5 @@ export const Todo = () => (
     <button className="delete-button">Delete</button>
   </div>
 );
+
+export const TodoList = () => <Todo />;

@@ -6,10 +6,8 @@ import {
   Header,
   AddTodoButton,
   FilterTodoListButton,
-  Todo,
+  TodoList,
 } from "./components";
-
-const TodoList = () => <Todo />;
 
 const AppContainer = () => (
   <div className="App">

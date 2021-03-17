@@ -34,7 +34,16 @@ const FilterTodoListButton = () => (
   </select>
 );
 
-const TodoList = () => <h1>Todo</h1>;
+const Todo = () => (
+  <div className="todo-list">
+    <p>Todo 1</p>
+    <button className="complete-button">Complete</button>
+    <button className="edit-button">Edit</button>
+    <button className="delete-button">Delete</button>
+  </div>
+);
+
+const TodoList = () => <Todo />;
 
 function App() {
   return (

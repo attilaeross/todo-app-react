@@ -7,3 +7,11 @@ export const UserNameInput = () => (
 );
 
 export const ChangeUserButton = () => <button>Set User</button>;
+
+export const NewTodoInput = () => (
+  <input
+    type="text"
+    className="new-todo"
+    placeholder="Please enter new todo here"
+  ></input>
+);

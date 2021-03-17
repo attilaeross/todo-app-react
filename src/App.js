@@ -1,13 +1,5 @@
 import "./App.css";
-import { UserNameInput, ChangeUserButton } from "./components";
-
-const NewTodoInput = () => (
-  <input
-    type="text"
-    className="new-todo"
-    placeholder="Please enter new todo here"
-  ></input>
-);
+import { UserNameInput, ChangeUserButton, NewTodoInput } from "./components";
 
 const Header = () => (
   <header>

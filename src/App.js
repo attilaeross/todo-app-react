@@ -34,6 +34,8 @@ const FilterTodoListButton = () => (
   </select>
 );
 
+const TodoList = () => <h1>Todo</h1>;
+
 function App() {
   return (
     <div className="App">
@@ -43,6 +45,7 @@ function App() {
       <NewTodoInput />
       <AddTodoButton />
       <FilterTodoListButton />
+      <TodoList />
     </div>
   );
 }

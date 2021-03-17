@@ -4,9 +4,8 @@ import {
   ChangeUserButton,
   NewTodoInput,
   Header,
+  AddTodoButton,
 } from "./components";
-
-const AddTodoButton = () => <button>Add todo</button>;
 
 const FilterTodoListButton = () => (
   <select>

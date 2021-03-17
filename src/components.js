@@ -21,3 +21,5 @@ export const Header = () => (
     <h1>Todo App React</h1>
   </header>
 );
+
+export const AddTodoButton = () => <button>Add todo</button>;

@@ -23,3 +23,11 @@ export const Header = () => (
 );
 
 export const AddTodoButton = () => <button>Add todo</button>;
+
+export const FilterTodoListButton = () => (
+  <select>
+    <option value="all">All</option>
+    <option value="completed">Completed</option>
+    <option value="outstanding">Outstanding</option>
+  </select>
+);

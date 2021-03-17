@@ -1,7 +1,5 @@
 import "./App.css";
-import { UserNameInput } from "./components";
-
-const ChangeUserButton = () => <button>Set User</button>;
+import { UserNameInput, ChangeUserButton } from "./components";
 
 const NewTodoInput = () => (
   <input

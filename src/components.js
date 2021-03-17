@@ -5,3 +5,5 @@ export const UserNameInput = () => (
     placeholder="Please enter user name"
   ></input>
 );
+
+export const ChangeUserButton = () => <button>Set User</button>;
